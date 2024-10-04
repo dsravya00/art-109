@@ -12,11 +12,21 @@
 const btn = document.getElementById('theButton');
 const myText = document.getElementById('theDiv');
 
-btn.addEventListener('click', function(){
+btn.addEventListener('click on', function(){
   const myInsertText = 'Hello World !';
 myText.innerHTML = myInsertText;
 
 });
+
+
+// const btn = document.getElementById('theButton');
+// const myText = document.getElementById('theDiv');
+
+// btn.addEventListener('click', function() {
+//   const myInsertText = 'Hello World !';
+//   myText.innerHTML = myInsertText;
+// });
+
 
 
 
